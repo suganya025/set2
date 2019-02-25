@@ -8,7 +8,7 @@ class powern
 		Scanner ob = new Scanner(System.in);
    		int base = ob.nextInt();
   		int k = ob.nextInt();
-  		double result = Math.pow(base, k);
+  	        int result =(int) Math.pow(base, k);
     	System.out.println(+result);
     }
 }
