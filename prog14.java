@@ -8,16 +8,12 @@ class interval
 		Scanner ob = new Scanner(System.in);
         	int a=ob.nextInt();
         	int b=ob.nextInt();
-       		for (int i=a; i<b;)
+       		for (int i=a+1; i<b;i++)
         	{
-        		++i;
-        		if(i!=b)
-        		{
-           		 if( i % 2 != 0)
+              		 if( i % 2 != 0)
             		{
 				System.out.print(i+" ");
            	        }
-        		}
-        	}
+              	}
 	}
 }  
