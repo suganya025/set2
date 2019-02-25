@@ -9,15 +9,12 @@ class palindrome
 		int temp,sum=0,a;
    	int n = ob.nextInt();
   	temp=n;
-  		if(n<=1000)
-  		{
-          while(n>0)
+           while(n>0)
           {    
             a=n%10;  
             sum=(sum*10)+a;    
             n=n/10;    
            }    
-  		}
      if(temp==sum)    
         System.out.println("yes");    
      else    
