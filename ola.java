@@ -7,8 +7,8 @@ class Ola
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner op=new Scanner(System.in);
-		String startplace = scanner.nextLine();
-		String startplace= scanner.nextLine();
+		String startplace = op.nextLine();
+		String startplace= op.nextLine();
 		int km=0,cost=0;
 		int startkm=op.nextInt();
 		int endkm=op.nextInt();
