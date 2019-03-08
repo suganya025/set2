@@ -8,7 +8,7 @@ class Ola
 	{
 		Scanner op=new Scanner(System.in);
 		String startplace = op.nextLine();
-		String startplace= op.nextLine();
+		String endplace= op.nextLine();
 		int km=0,cost=0;
 		int startkm=op.nextInt();
 		int endkm=op.nextInt();
