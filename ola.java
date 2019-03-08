@@ -7,8 +7,9 @@ class Ola
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner op=new Scanner(System.in);
-		String startplace="",endplace="";
-		int km,cost;
+		String startplace = scanner.nextLine();
+		String startplace= scanner.nextLine();
+		int km=0,cost=0;
 		int startkm=op.nextInt();
 		int endkm=op.nextInt();
 		System.out.println("1.auto\t2.car");
@@ -25,8 +26,8 @@ class Ola
 				cost=km*14;
 				break;
 		}
-		System.out.println("Source:"+startplace,"Destination:",+endplace,"kilo meter:"+km);
-		System.out.println(+cost);
-
+	
+		System.out.println("kilo meter:"+km);
+		System.out.println("cost:"+cost);
 	}
 }
