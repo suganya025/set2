@@ -18,15 +18,17 @@ class Ola
 		switch(option)
 		{
 			case 1:
+				System.out.println("Auto");
 				km=endkm-startkm;
 				cost=km*10;
 				break;
 			case 2:
+				System.out.println("car");
 				km=endkm-startkm;
 				cost=km*14;
 				break;
 		}
-	
+	   
 		System.out.println("kilo meter:"+km);
 		System.out.println("cost:"+cost);
 	}
