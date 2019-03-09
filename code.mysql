@@ -1,0 +1,6 @@
+create database my_db;
+create table student(
+    student_id INT NOT NULL,
+    first_name   VARCHAR(15) NOT NULL,
+    last_name  VARCHAR(15) NOT NULL,);
+    show table;
