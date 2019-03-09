@@ -1,0 +1,43 @@
+create database STUDENT;
+create table employee(
+    employee_id VARCHAR(20) NOT NULL,
+    name             VARCHAR(20) NOT NULL,
+    salary       VARCHAR(20) NOT NULL,
+    age         VARCHAR(15) NOT NULL,
+    city            VARCHAR(20) NOT NULL,
+    grass_pay          VARCHAR(20) NOT NULL);
+     insert into employee values(1014,'Ramya',20000,30,'salem',850);
+    insert into employee values(2453,'Saranya',15000,25,'salem',500);
+    insert into employee values(2574,'Visa',25000,35,'salem',750);
+    insert into employee values(1895,'Pavi',20500,26,'salem',450);
+    insert into employee values(5945,'Sangee',25500,31,'salem',550);
+    select * from employee;
+   create table student(
+    student_id   INT NOT NULL,
+    first_name   VARCHAR(15) NOT NULL,
+    last_name    VARCHAR(15) NOT NULL,
+    mark         VARCHAR(15),
+    city         VARCHAR(20) NOT NULL,
+    state        VARCHAR(2) NOT NULL);
+    insert into student  values(101,'ramya','pragathi',90,'chennai','TN');
+    insert into student  values(102,'Saranya','sri',90,'chennai','TN');
+insert into student values(103,'visa','pragathi',90,'chennai','TN');
+insert into student  values(104,'pavi','pragathi',90,'chennai','TN');
+insert into student  values(105,'sangee','pragathi',90,'chennai','TN');
+select * from student;
+    create table production(
+    production_id   INT NOT NULL,
+    name   VARCHAR(15) NOT NULL,
+    mark1    VARCHAR(15) NOT NULL,
+    mark2         VARCHAR(15),
+   mark3       VARCHAR(20) NOT NULL,
+        total      VARCHAR(20) NOT NULL);
+    insert into production  values(101,'ramya',89,90,90,269);
+    insert into production values(102,'Saranya',89,90,90,269);
+insert into production values(103,'visa',89,90,90,269);
+insert into production  values(104,'pavi',89,90,90,269);
+insert into production  values(105,'sangee',89,90,90,269);
+select * from production;
+DROP TABLE student;
+ALTER TABLE production  DROP COLUMN  total ;
+select * from production;
