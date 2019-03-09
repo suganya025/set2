@@ -1,0 +1,16 @@
+create database my_db;
+create table account(
+    account_no     VARCHAR(20) NOT NULL,
+    name            VARCHAR(20) NOT NULL,
+    bank_name VARCHAR(20) NOT NULL,
+     branch          VARCHAR(15) NOT NULL,
+    city            VARCHAR(20) NOT NULL,
+    state           VARCHAR(20) NOT NULL);
+    insert into account values(1014,'Ramya','CUB','Solar','Erode','TN');
+    insert into account values(2453,'Saranya','IOB','Komarapalayam','Namakkal','TN');
+    insert into account values(2574,'Visa','KVB','KKN','Selam','TN');
+    insert into account values(1895,'Pavi','LVB','Edapadi','Selam','TN');
+    insert into account values(5945,'Sangee','CUB','Komarapalayam','Nammakkal','TN');
+    desc account;
+    
+    
