@@ -1,6 +1,11 @@
 create database my_db;
 create table student(
-    student_id INT NOT NULL,
+    student_id   INT NOT NULL,
     first_name   VARCHAR(15) NOT NULL,
-    last_name  VARCHAR(15) NOT NULL,);
-    show table;
+    last_name    VARCHAR(15) NOT NULL,
+    mark         VARCHAR(15),
+    city         VARCHAR(20) NOT NULL,
+    state        VARCHAR(20) NOT NULL);
+    desc student;
+
+    
